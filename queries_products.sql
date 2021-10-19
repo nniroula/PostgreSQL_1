@@ -42,6 +42,8 @@ DELETE FROM products WHERE price < 25.00;
  --14. There is a new company policy: everything is returnable. Update the database accordingly.
   UPDATE products SET can_be_returned = 'true' WHERE can_be_returned = 'false';
 
+  
+
 
 
 
